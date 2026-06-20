@@ -1,0 +1,69 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+.left-section{
+    display: flex;
+    padding-left: 80px;
+    align-items:center;
+}
+.logo-img{
+    width:85px;
+    height: 50px; 
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    height: 45px;
+    justify-content: center;
+}
+.searchbutton{
+    padding-left: 20px;
+    font-family: 'Nunitosans' , arial;
+    font-weight: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+    height: 45px;
+    width: 500px;
+}
+.searchbutton::placeholder{
+    font-family: 'nunitosans';
+    color: rgb(88, 87, 87);
+    font-size: 14px;
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+}
+.account-icon, 
+.cart-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.account-img ,
+.cart-img{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.account , 
+.cart{
+    font-family: 'nunito sans' , Arial;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
